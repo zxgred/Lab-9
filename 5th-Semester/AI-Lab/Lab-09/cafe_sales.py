@@ -1,3 +1,4 @@
+# Lab 9 - NumPy basics
 import numpy as np
 
 units = np.array([[30, 20, 10],   # rows: 4 days
