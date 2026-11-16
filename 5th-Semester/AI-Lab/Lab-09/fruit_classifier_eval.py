@@ -17,3 +17,7 @@ print("Accuracy:", round(accuracy, 3))
 
 mse = np.mean((w_true - w_pred) ** 2)
 print("MSE:", mse)
+
+wrong = y_pred != y_test
+print("Wrongly predicted mask:", wrong)
+print("Wrongly predicted samples:", np.arange(len(y_test))[wrong])
